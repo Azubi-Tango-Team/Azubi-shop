@@ -57,3 +57,36 @@ a:hover {
 .login:hover {
   background-color: rgba(0, 16, 102, 0.7);
 }
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 40px;
+}
+.search-input{
+    border: none;
+    padding: 10px;
+   
+    background-color: #F5F5F5;
+    width: 55%;
+    height: 40px;
+    font-size: 22px;
+    color: black;
+    border-radius: 5px;
+    padding-left: 30px;
+    text-indent: 20px;
+
+}
+.search-input::placeholder{
+    color: black;
+}
+
+.search-icon{
+	position: absolute;
+    left: 370px;
+    font-size: 20px;
+
+    
+}
