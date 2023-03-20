@@ -1,15 +1,14 @@
 import React from "react";
-import './App.css';
-import Footer from "./common/Footer";
 import Navigation from "./common/Navigation";
-import Loginsignup from'./pages/Loginsignup';
+import Search from "./common/Search";
+import Home from'./pages/Home';
 
 function App() {
   return (
     <>
     <Navigation/>
-    <Loginsignup/>
-    <Footer/>
+    <Search/>
+    <Home/>
     </>
   );
 }
