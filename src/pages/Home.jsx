@@ -12,10 +12,10 @@ const Home = () => {
               <div key={product.id} className="prodTitle">
                 <img src={process.env.PUBLIC_URL +product.image} alt={`Preview of ${product.title}`} />
                 <h3>{product.title}</h3>
-                <p>{product.description}</p>
-                <p>${product.price}</p>
+                <p className="description">{product.description}</p>
                 <p>
-                  <button>Add to Cart</button>
+                  <button className="button">Place Order</button>
+                  ${product.price}
                 </p>
               </div>
             );

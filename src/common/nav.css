@@ -14,6 +14,10 @@
   font-size: 24px;
   font-weight: bold;
   padding-left: 40px;
+  
+}
+.imglogo{
+  width: 150px;
 }
 ul {
   display: flex;
@@ -68,7 +72,7 @@ a:hover {
 .search-input{
     border: none;
     padding: 10px;
-   
+   position: relative;
     background-color: #F5F5F5;
     width: 55%;
     height: 40px;
@@ -85,8 +89,54 @@ a:hover {
 
 .search-icon{
 	position: absolute;
-    left: 370px;
-    font-size: 20px;
+  left: 375px; /* adjust this value to your desired icon position */
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  z-index: 1;
 
     
 }
+@media only screen and (max-width: 768px) {
+  .search-container {
+    padding: 20px;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .search-icon {
+    left: 40px;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 982px) {
+  .search-container {
+    padding: 20px;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .search-icon {
+    left: 40px;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  .search-container {
+    padding: 20px;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .search-icon {
+    left: 40px;
+    font-size: 16px;
+  }
+}
+

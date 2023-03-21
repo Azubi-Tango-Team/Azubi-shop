@@ -6,7 +6,7 @@ function Navigation() {
     <>
       <div className="navigation">
         <a href="/" className="brandname">
-          Azubishop
+        <img className="imglogo" src={process.env.PUBLIC_URL + '/logo.png'} alt="Logo" />
         </a>
         <ul>
           <li>
