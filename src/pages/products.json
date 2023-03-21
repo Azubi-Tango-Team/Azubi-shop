@@ -10,7 +10,50 @@
       {
         "title": "Sneaker Nike",
         "id": "sticker_logo_pack",
-        "image": "/assets/menshirt.png",
+        "image": "/assets/nikesneaker.png",
+        "description": "Get a pack of 3 Snipcart logo stickers.",
+        "price": "39.00"
+      },
+      {
+        "title": "Sneaker Nike",
+        "id": "sticker_logo_pack",
+        "image": "/assets/pumasneaker.png",
+        "description": "Get a pack of 3 Snipcart logo stickers.",
+        "price": "39.00"
+      },
+      {
+        "title": "Sneaker Nike",
+        "id": "sticker_logo_pack",
+        "image": "/assets/alonzidress.png",
+        "description": "Get a pack of 3 Snipcart logo stickers.",
+        "price": "39.00"
+      },
+      {
+        "title": "Men Shirt",
+        "id": "sticker_logo",
+        "image": "/assets/watch.png",
+        "description": "Show off your Snipcart support with a logo sticker!",
+        "price": "29.00"
+      },
+
+      {
+        "title": "Sneaker Nike",
+        "id": "sticker_logo_pack",
+        "image": "/assets/cap.png",
+        "description": "Get a pack of 3 Snipcart logo stickers.",
+        "price": "39.00"
+      },
+      {
+        "title": "Sneaker Nike",
+        "id": "sticker_logo_pack",
+        "image": "/assets/jeans.png",
+        "description": "Get a pack of 3 Snipcart logo stickers.",
+        "price": "39.00"
+      },
+      {
+        "title": "Sneaker Nike",
+        "id": "sticker_logo_pack",
+        "image": "/assets/longsleeves.png",
         "description": "Get a pack of 3 Snipcart logo stickers.",
         "price": "39.00"
       }
