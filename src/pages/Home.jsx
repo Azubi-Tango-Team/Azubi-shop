@@ -1,7 +1,5 @@
 import React from "react";
 import products from "./products.json";
-import Navigation from "../common/Navigation"
-import Search from "../common/Search";
 import "./style.css";
 
 const Home = () => {

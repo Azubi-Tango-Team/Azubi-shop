@@ -6,9 +6,11 @@ import Home from'./pages/Home';
 function App() {
   return (
     <>
+    
     <Navigation/>
     <Search/>
     <Home/>
+ 
     </>
   );
 }
